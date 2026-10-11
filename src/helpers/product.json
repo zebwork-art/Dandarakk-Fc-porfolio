@@ -1,115 +1,73 @@
 [
-    {
-        "productCode": "MJUM8066-GYDZ",
-        "name": "Lambswool Crew Neck Jumper",
-        "vendor": "Sunspel",
-        "price": 75,
-        "alt": "lambswool crew neck jumper",
-        "image": "/products/pdp1.jpeg",
-        "colorOptions": [
-            {"color": "#000000", "title": "Anthracite Melange"},
-            {"color": "#4D34AE", "title": "Pale Purple"},
-            {"color": "#488266", "title": "Green Moss"}
-        ],
-        "sizeOptions": ["xs", "s", "m", "l", "xl"],
-        "wishlist": true,
-        "tags": ["sample"],
-        "gallery": [
-            {"image": "/products/pdp1.jpeg", "alt": "pdp description 1"},
-            {"image": "/products/pdp2.jpeg", "alt": "pdp description 2"},
-            {"image": "/products/pdp3.jpeg", "alt": "pdp description 3"},
-            {"image": "/products/pdp4.jpeg", "alt": "pdp description 4"}
-        ],
-        "description": "This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife. Once knitted, the garment is washed in Scottish spring water to make it beautifully soft."
-    },
-    {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 1",
-        "image": "/products/shirt1.jpg",
-        "tags": ["shirt", "men"]
-    },
-    {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 2",
-        "image": "/products/shirt2.jpg",
-        "tags": ["shirt", "men"]
-    },
-    {
-        "name": "Classic T-Shirt",
-        "price": 75,
-        "alt": "classic t-shirt 3",
-        "image": "/products/shirt3.jpg",
-        "tags": ["shirt", "men"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"]
-    },    
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 13.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"],
-        "meta": "+ 2 colors"
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman4.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman5.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman6.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman3.jpeg",
-        "tags": ["woman"]
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 15.90,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman2.jpeg",
-        "tags": ["woman"],
-        "originalPrice": 31.50
-
-    },
-    {
-        "name": "Relaxed-fit graphic T-shirt",
-        "price": 21,
-        "alt": "relaxed t shirt woman",
-        "image": "/products/woman1.jpeg",
-        "tags": ["woman"]
-    }
-  ]
+    [
+  {
+    "id": "1",
+    "productCode": "DDFC-01",
+    "name": "SHAHZEB",
+    "price": 11,
+    "alt": "SHAHZEB #11",
+    "image": "/shahzeb.jpg",
+    "description": "Jersey Number 11 - Dandarakk FC",
+  },
+  {
+    "id": "2",
+    "productCode": "DDFC-02",
+    "name": "ANEEZ",
+    "price": 9,
+    "alt": "ANEEZ #9",
+    "image": "/aneez.jpg",
+    "description": "Jersey Number 9 - Dandarakk FC",
+  },
+  {
+    "id": "3",
+    "productCode": "DDFC-03",
+    "name": "HAMMAD",
+    "price": 8,
+    "alt": "HAMMAD #8",
+    "image": "/hammad.jpg",
+    "description": "Jersey Number 8 - Dandarakk FC",
+  },
+  {
+    "id": "4",
+    "productCode": "DDFC-04",
+    "name": "TANZIL",
+    "price": 13,
+    "alt": "TANZIL #13",
+    "image": "/tanzil.jpg",
+    "description": "Jersey Number 13 - Dandarakk FC",
+  },
+  {
+    "id": "5",
+    "productCode": "DDFC-05",
+    "name": "MAAZ",
+    "price": 10,
+    "alt": "MAAZ #10",
+    "image": "/maaz.jpg",
+    "description": "Jersey Number 10 - Dandarakk FC",
+  },
+  {
+    "id": "6",
+    "productCode": "DDFC-06",
+    "name": "KAMIL JR",
+    "price": 24,
+    "alt": "KAMIL JR #24",
+    "image": "/kamil_jr.jpg",
+    "description": "Jersey Number 24 - Goal Keeper - Dandarakk FC",
+  },
+  {
+    "id": "7",
+    "productCode": "DDFC-07",
+    "name": "KAMIL SR",
+    "price": 7,
+    "alt": "KAMIL SR #7",
+    "image": "/kamil_sr.jpg",
+    "description": "Jersey Number 7 - Dandarakk FC",
+  },
+  {
+    "id": "8",
+    "productCode": "DDFC-08",
+    "name": "SUDAIS",
+    "price": 19,
+    "alt": "SUDAIS #19",
+    "image": "/sudais.jpg",
+    "description": "Jersey Number 19 - Dandarakk FC",

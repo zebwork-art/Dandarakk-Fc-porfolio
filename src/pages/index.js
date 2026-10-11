@@ -30,7 +30,7 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
+        image={'Gemini_Generated_Image_frpu0xfrpu0xfrpu.jfif'}
         title={'Dandarakk FC'}
         subtitle={'Official Home of the Dandarakk Football Club'}
         ctaText={'Our Team'}
