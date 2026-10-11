@@ -99,16 +99,16 @@ const IndexPage = () => {
       {/* Quote */}
       <Quote
         bgColor={'var(--standard-light-grey)'}
-        title={'about Sydney'}
+        title={'About Dandarakk FC'}
         quote={
-          '“We believe in two things: the pursuit of quality in everything we do, and looking after one another. Everything else should take care of itself.”'
+          '“We believe in teamwork, discipline, and playing with passion to bring glory to our community.”'
         }
       />
 
       {/* Blog Grid */}
       <div className={styles.blogsContainer}>
         <Container size={'large'}>
-          <Title name={'Journal'} subtitle={'Notes on life and style'} />
+          <Title name={'Latest News'} subtitle={'Match recaps and club announcements'} />
           <BlogPreviewGrid data={blogData} />
         </Container>
       </div>
@@ -117,11 +117,11 @@ const IndexPage = () => {
       <div className={styles.sustainableContainer}>
         <Hero
           image={toOptimizedImage('/banner3.png')}
-          title={'We are Sustainable'}
+          title={'Join the Club'}
           subtitle={
-            'From caring for our land to supporting our people, discover the steps we’re taking to do more for the world around us.'
+            'Whether you want to support us from the stands or join our training sessions, find out how you can become a part of the Dandarakk family.'
           }
-          ctaText={'read more'}
+          ctaText={'Learn More'}
           maxWidth={'660px'}
           ctaStyle={styles.ctaCustomButton}
         />
@@ -130,8 +130,8 @@ const IndexPage = () => {
       {/* Social Media */}
       <div className={styles.socialContainer}>
         <Title
-          name={'Styled by You'}
-          subtitle={'Tag @sydney to be featured.'}
+          name={'Follow Our Journey'}
+          subtitle={'Follow us on TikTok and Instagram @dandarakk_fc.'}
         />
         <div className={styles.socialContentGrid}>
           <img src={toOptimizedImage(`/social/socialMedia1.png`)} alt={'social media 1'} />
