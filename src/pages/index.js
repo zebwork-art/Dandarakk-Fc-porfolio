@@ -52,7 +52,7 @@ const IndexPage = () => {
       {/* Collection Container */}
       <div className={styles.collectionContainer}>
         <Container size={'large'}>
-          <Title name={'New Collection'} />
+          <Title name={'Dandarakk Fc'} />
           <ProductCollectionGrid />
         </Container>
       </div>
@@ -60,7 +60,7 @@ const IndexPage = () => {
       {/* New Arrivals */}
       <div className={styles.newArrivalsContainer}>
         <Container>
-          <Title name={'New Arrivals'} link={'/shop'} textLink={'view all'} />
+          <Title name={'Meet the squad'} link={'/shop'} textLink={'See all players'} />
           <ProductCardGrid
             spacing={true}
             showSlider
@@ -79,9 +79,9 @@ const IndexPage = () => {
             altImage={'highlight image'}
             miniImage={'/highlightmin.png'}
             miniImageAlt={'mini highlight image'}
-            title={'Luxury Knitwear'}
-            description={`This soft lambswool jumper is knitted in Scotland, using yarn from one of the world's oldest spinners based in Fife`}
-            textLink={'shop now'}
+            title={'Challenge Dandarakk Fc'}
+            description={`Think your squad has what it takes? Contact our management to schedule a friendly match or tournament fixture.`}
+            textLink={'Book a match'}
             link={'/shop'}
           />
         </Container>
@@ -89,10 +89,10 @@ const IndexPage = () => {
 
       {/* Promotion */}
       <div className={styles.promotionContainer}>
-        <Hero image={toOptimizedImage('/banner2.png')} title={`-50% off \n All Essentials`} />
+        <Hero image={toOptimizedImage('/banner2.png')} title={`Support Dandarakk FC \n Follow Our Journey`} />
         <div className={styles.linkContainers}>
-          <Link to={'/shop'}>WOMAN</Link>
-          <Link to={'/shop'}>MAN</Link>
+          <Link to={'/shop'}>Match schedule</Link>
+          <Link to={'/shop'}>Contact Us</Link>
         </div>
       </div>
 
